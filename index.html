@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/product-preview-card-component-main/images/favicon-32x32.png">
+    <link rel="stylesheet" href="styl.css">
+    <title>GridLayout</title>
+</head>
+
+<body>
+    <!--
+    . = classname
+    > = go inside the tag
+    ^ = go outside of the tag
+    + = use to put multiple tags in one container
+    -->
+    <!--.container>.grid-container>.img-container>img^.card-content>h6.prod-cat+h2.prod-name+p.prod-desc+.price>p.cur-price+p.old-price^button.cart-btn>img-->
+    <div class="container">
+        <div class="grid-container">
+            <div class="img-container"><img src="./product-preview-card-component-main/images/image-product-desktop.jpg"
+                    alt="Image of a perfume bottle"></div>
+            <div class="card-content">
+                <h6 class="prod-cat">Perfume</h6>
+                <h2 class="prod-name">Gabrielle Essence Eau De Parfum</h2>
+                <p class="prod-desc">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                    Perfumer-Creator for the House of CHANEL.</p>
+                <div class="price">
+                    <p class="cur-price">$149.99</p>
+                    <p class="old-price">$169.99</p>
+                </div>
+                <button class="cart-btn"><img src="" alt="">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Alex A</a>.
+    </div>
+</body>
+
+</html>
